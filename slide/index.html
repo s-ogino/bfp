@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <ul class="slider">
+      <li class="slider-item">
+        <div>
+          <p>JavaScript セミナー</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">01</span>
+            ページトップボタン
+          </p>
+          <p class="txt">クリックするとページの先頭にスムーススクロールするボタンの実装</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">02</span>
+            アンカーリンク
+          </p>
+          <p class="txt">クリックすると指定のセクション(#section)の先頭にスムーススクロールするリンクの実装</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">03</span>
+            ページトップボタンの表示・非表示判定
+          </p>
+          <p class="txt">最初は非表示だが、ある程度スクロールするとページトップボタンが表示される処理の追加</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">04</span>
+            関数化
+          </p>
+          <p class="txt">ページトップボタンとアンカーリンクのスムーススクロール部分の共通化</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">05</span>
+            複数のアンカーリンク
+          </p>
+          <p class="txt">それぞれ#section_aと#section_bと#section_cにスムーススクロールする処理の追加</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">06</span>
+            引数を用いたオプション設定
+          </p>
+          <p class="txt">ページトップボタンとアンカーリンクのスクロールスピードを引数を用いて出し分ける</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <div>
+          <p>
+            <span class="num">07</span>
+            ハンバーガーボタンの実装（レスポンシブ対応）
+          </p>
+          <p class="txt">SP時にハンバーガーボタンをクリックしたらアンカーリンクが展開</p>
+        </div>
+      </li>
+
+      <!-- <li class="slider-item">
+        <button id="timer-btn" class="btn btn-primary">START</button>
+
+        <p id="timer-text">00:10:00</p>
+      </li> -->
+    </ul>
+
+    <div class="indicator-wrapper">
+      <div class="indicator"></div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/timer.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
